@@ -1,0 +1,10 @@
+mysql> insert into shopping values ('goa','food',10,5,15);
+Query OK, 1 row affected (0.06 sec)
+
+mysql> select * from shopping;
++-------+-------+-------+-------+---------+
+| piace | items | price | offer | payment |
++-------+-------+-------+-------+---------+
+| goa   | food  |    10 |     5 |      15 |
++-------+-------+-------+-------+---------+
+1 row in set (0.00 sec)
